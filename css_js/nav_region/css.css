@@ -102,10 +102,10 @@ nav.navbar {
   display: inline;
 }
 .navbar .collapsed_dom form input {
-  width: 100%;
+  width: 17em;
 }
 .navbar .collapsed_dom form button {
-  margin-left: -5em;
+  margin-left: -3em;
 }
 
 /*  <= device width < 1381 */
