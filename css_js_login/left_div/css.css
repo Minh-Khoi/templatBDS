@@ -1,0 +1,12 @@
+.left_div {
+  width: 50vw;
+  background-color: #f7a515;
+  height: 100vh;
+}
+
+.left_div img {
+  width: 22.92%;
+  position: relative;
+  left: 38.33%;
+  top: 25.27%;
+}

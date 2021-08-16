@@ -1,0 +1,410 @@
+.main_body {
+  max-width: 70vw;
+  padding: 0;
+  margin-top: calc(2rem + 0.7vw);
+}
+.main_body > .row {
+  margin: 0;
+}
+
+.main_body > .row > .left {
+  padding: 0;
+}
+.main_body > .row > .left .main_tabs {
+  margin-top: 1.5em;
+}
+.main_body > .row > .left .main_tabs > .row {
+  margin: 0;
+  background-color: white;
+  border-top: 1px solid #eaeaea;
+  padding: 1em 0.5em;
+}
+
+.main_body > .row > .left .main_tabs > h5 {
+  margin-left: 0.5em;
+  font-weight: 400;
+}
+.main_body > .row > .left .main_tabs > .row .col-lg-8 {
+  padding-left: 0;
+  font-size: 0.9rem;
+  word-spacing: -0.1em;
+  letter-spacing: -0.01em;
+  border-right: 1px solid #eaeaea;
+}
+
+.main_body > .row > .left .main_tabs > .row {
+  position: relative;
+}
+
+.main_body > .row > .left .main_tabs .absolute_span {
+  position: absolute;
+  left: 0.5rem;
+  top: -2px;
+  height: 2px;
+  width: 5em;
+  background-color: #faac18;
+}
+
+.main_body > .row > .left .main_tabs > .row .col-lg-8 > p {
+  margin-bottom: 0;
+}
+.main_body > .row > .left .main_tabs > .row .col-lg-8 > p:last-child {
+  margin-bottom: 2em;
+}
+.main_body > .row > .left .main_tabs > .row .col-lg-8 > p:last-child > span {
+  display: inline-block;
+  line-height: 2em;
+  vertical-align: middle;
+  background-color: #cce39b;
+  margin-left: 1em;
+  padding: 0 0.75em;
+  border-radius: 1em;
+}
+
+.main_body > .row > .left .main_tabs > .row .col-lg-4 > span {
+  border-radius: 1.5em;
+  color: white;
+  font-weight: 500;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+}
+.main_body > .row > .left .main_tabs > .row .col-lg-4 > span > img {
+  width: 0.5em;
+  height: 1em;
+  margin-left: auto;
+  margin-bottom: -0.2em;
+  align-self: center;
+}
+
+.main_body > .row > .left .main_tabs:nth-child(3) > .row > div {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 0.85rem;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+.main_body > .row > .left .main_tabs:nth-child(3) > .row > div > div {
+  padding: 0 0.75em;
+  background-color: transparent;
+  border-radius: 0.75em;
+}
+.main_body > .row > .left .main_tabs:nth-child(3) > .row > div > div.active {
+  background-color: #f8a614;
+}
+.main_body > .row > .left .main_tabs:nth-child(3) > .row > div:nth-child(3) {
+  flex-wrap: nowrap;
+  overflow: auto;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(3)
+  > .row
+  > div:nth-child(3)
+  img[alt="tailieu"] {
+  width: auto;
+  height: 10em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1em 0.5em 0;
+  border-radius: 1em 1.5em 1.8em 1.5em;
+}
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(3)
+  > .row
+  > div:nth-child(3)
+  span.hover_img {
+  background-image: url(../../images/bds_chitiet/search-green-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2em;
+  background-color: rgba(0, 0, 0, 0.486);
+  position: absolute;
+  border-radius: 1em 1.5em 1.8em 1.5em;
+}
+
+.main_body > .row > .left .main_tabs:nth-child(4) > .row {
+  flex-direction: column;
+}
+.main_body > .row > .left .main_tabs:nth-child(4) > .row > h5 {
+  font-weight: bold;
+  color: #a9a9a9;
+  margin-left: 0.75em;
+}
+.main_body > .row > .left .main_tabs:nth-child(4) > .row > div {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5em;
+  margin: 1.5em 0.75em 0 0.75em;
+}
+.main_body > .row > .left .main_tabs:nth-child(4) > .row > div > img {
+  margin-right: 1em;
+}
+.main_body > .row > .left .main_tabs:nth-child(4) > .row > div > span > * {
+  display: inline-block;
+}
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(4)
+  > .row
+  > div
+  > span
+  > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(4)
+  > .row
+  > div
+  > span
+  > *:last-child
+  > span {
+  color: #f8aa12;
+  font-weight: bold;
+}
+.main_body > .row > .left .main_tabs:nth-child(4) > .row > .btn {
+  max-width: max-content;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-right: 0.75em;
+  color: white;
+  border-radius: 1.25em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(4)
+  > .row
+  > .btn
+  > span:first-child {
+  vertical-align: baseline;
+  font-size: 1.75em;
+  line-height: 0.6em;
+  max-height: max-content;
+  font-weight: normal;
+  margin-right: 0.25em;
+}
+.main_body > .row > .left .main_tabs:nth-child(5) > .row {
+  flex-direction: column;
+}
+.main_body > .row > .left .main_tabs:nth-child(5) > .row > p:not(:last-child) {
+  display: flex;
+  flex-flow: row nowrap;
+  line-height: 0.85;
+  margin-bottom: 0;
+  align-items: center;
+}
+.main_body > .row > .left .main_tabs:nth-child(5) > .row > p:last-child {
+  margin-left: 0.5em;
+  color: #66990c;
+  padding: 1.2em 0;
+}
+.main_body > .row > .left .main_tabs:nth-child(5) > .row > p:last-child > .btn {
+  border: 1px solid #66990c;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+}
+
+.main_body
+  > .row
+  > .left
+  .main_tabs:nth-child(5)
+  > .row
+  > p:not(:last-child)
+  > b {
+  flex-basis: 28.85%;
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+/* CSS for right side */
+.main_body > .row > .right {
+  margin-left: 1.8%;
+  flex-basis: 31%;
+  padding: 0;
+}
+@media (max-width: 992px) {
+  .main_body > .row > .right {
+    flex-basis: 100%;
+  }
+}
+.main_body > .row > .right > .side-tab {
+  border-top: 2px solid #faac18;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.main_body > .row > .right > .side-tab:not(:first-child) {
+  margin-top: 1em;
+}
+.main_body > .row > .right > .side-tab:first-child > div:first-child {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:first-child
+  > div:first-child
+  > div
+  > span {
+  padding: 1em;
+  border-radius: 2em;
+  background-color: #fcd68c;
+  display: inline-block;
+}
+.main_body > .row > .right > .side-tab:first-child > div:last-child {
+  position: relative;
+}
+
+.main_body > .row > .right > .side-tab:first-child > div:last-child > h6 {
+  font-size: 1rem;
+  color: #faac18;
+  font-weight: 500;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:first-child
+  > div:last-child
+  ul
+  li
+  > .d-flex
+  span {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 0.65em;
+  background-color: #f9ac19;
+  margin-left: 0;
+  margin-right: 1.855em;
+  z-index: 100;
+  margin-top: 0.6em;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:first-child
+  > div:last-child
+  .vertical_line {
+  position: absolute;
+  top: 2em;
+  left: 0.25em;
+  border: 2px solid #e5e5e5;
+}
+.main_body > .row > .right > .side-tab:nth-child(2) > div:not(:last-child) {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border-bottom: 1px dotted #dfdfdf;
+  padding: 1em 0;
+}
+
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > div:not(:last-child)
+  > img[alt="lienhe_avt"] {
+  width: 3em;
+  height: 3em;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > div:not(:last-child)
+  > .info {
+  font-size: 0.8rem;
+  margin-left: 0.5em;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > div:not(:last-child)
+  > .info
+  > p {
+  margin-bottom: 0;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > div:not(:last-child)
+  > .contact {
+  margin-left: auto;
+}
+
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > div:not(:last-child)
+  > .contact
+  > img {
+  height: 2em;
+  width: 2em;
+}
+.main_body > .row > .right > .side-tab:nth-child(2) > .danhgia_tuvanvien {
+  padding: 1em 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.main_body > .row > .right > .side-tab:nth-child(2) > .danhgia_tuvanvien > div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > .danhgia_tuvanvien
+  > div
+  > .stars
+  img {
+  width: 1em;
+}
+
+.main_body
+  > .row
+  > .right
+  > .side-tab:nth-child(2)
+  > .danhgia_tuvanvien
+  > div
+  > .btn {
+  background-color: #fff;
+  border: 1px solid #faac18;
+  box-shadow: 0px 0px 3px 3px #faab1869;
+}
+
+.main_body > .row > .right > .side-tab:last-child {
+  text-align: center;
+}
+
+.main_body > .row > .right > .side-tab:last-child > :first-child {
+  font-size: 1.5rem;
+  line-height: 100%;
+  height: 1.22em;
+  width: 1.22em;
+  border: 1px solid #fdcb72;
+  border-radius: 1em;
+  display: inline-block;
+  vertical-align: middle;
+}

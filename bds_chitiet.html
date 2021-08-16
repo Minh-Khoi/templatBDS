@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custome css -->
+    <link rel="stylesheet" href="./css_js/nav_region/css.css" />
+    <link rel="stylesheet" href="./css_js/login_container/css.css" />
+    <link rel="stylesheet" href="./css_js/footer_container/css.css" />
+    <link rel="stylesheet" href="./css_js_batdongsan/search_form/css.css" />
+    <link rel="stylesheet" href="./css_js_batdongsan/content/css.css" />
+    <link rel="stylesheet" href="./css_js_bds_chitiet/path_line/css.css" />
+    <link rel="stylesheet" href="./css_js_bds_chitiet/description/css.css" />
+    <link rel="stylesheet" href="./css_js_bds_chitiet/details/css.css" />
+    <title></title>
+    <style>
+      body {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #region nav_region -->
+    <nav class="nav_region navbar navbar-expand-md navbar-light bg-warning">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> Trang chủ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tin BĐS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BĐS trên thị trường</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ưu đãi </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gửi bán/thuê </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tra cứu </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            data-forid="template_search"
+          >
+            <i class="fa fa-search"></i>
+          </button>
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            data-forid="template_notification"
+          >
+            <i class="fa fa-bell"></i>
+          </button>
+          <img
+            src="./images\datxanh_1/anh_avatar.jpg"
+            alt="anh_avartar"
+            data-forid="template_avatar"
+          />
+        </div>
+      </div>
+      <!-- #region template_avatar -->
+      <script type="text/template" id="template_avatar">
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/fucku2.png" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-fffff 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/fucku.png" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-rrrrrr 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+      </script>
+      <!-- #endregion  -->
+      <!-- #region template_notification -->
+      <script type="text/template" id="template_notification">
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <hr>
+      </script>
+      <!-- #endregion  -->
+      <!-- #region template_search -->
+      <script type="text/template" id="template_search">
+        <form action="">
+            <input type="text" name="search_field" id="search_field">
+            <button type="button">SEARCH</button>
+        </form>
+      </script>
+      <!-- #endregion  -->
+    </nav>
+    <!-- #endregion  -->
+
+    <!-- #region path_line -->
+    <div class="container path_line">
+      <a href="">Trang chu</a>
+      /
+      <a href="">Bat dong san</a>
+      /
+      <a href="">Chung cu Golden</a>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region description -->
+    <div class="container description">
+        <div class="row">
+            <div>
+                <h1>Chung cu Golden City</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>
+                    <span>Tinh trang <b><i class="fas fa-circle"></i> Gom dat cho</b></span>
+                    <span>Gia: <a href="" >Lien he</a> </span>
+                </p>
+            </div>
+            <div>
+                SHARE
+                <img src="./images/bds_chitiet/mess_icon.png" alt="">
+                <img src="./images/bds_chitiet/fb_icon.png" alt="">
+                <img src="./images/bds_chitiet/gg_icon.png" alt="">
+                <img src="./images/bds_chitiet/p_icon.png" alt="">
+                <img src="./images/bds_chitiet/twitter_icon.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <img src="./images/bds_chitiet/description_img.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <b>Chu dau tu:</b> Ty phu Nguyen Ngoc Minh Khoi
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Dien tich dat nghien cuu:</b> Lorem, ipsum dolor.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Dien tich dat xay dung:</b> Lorem, ipsum dolor.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Mat do xay dung:</b> Lorem, ips.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Loai hinh phat trien:</b> Lorem, ips. lorm1
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Quy mo du an:</b> Lorem, ips. Lorem.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Quy mo chuc nang:</b> Lorem, ips. Lorem.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Tu van thiet ke:</b> Lorem, ips. Lorem.
+            </div>
+            <div class="col-12 col-md-6">
+                <b>Quan ly du an dau tu va giam sat:</b>  ips. Lorem.
+            </div>
+        </div>
+    </div>
+    <!-- #endregion --> 
+
+    <!-- #region details -->
+    <div class="container details">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="nav">
+                    <div class="active"><a href="#tongquan">Tong quan</a></div>
+                    <div><a href="#vi_tri">Vi tri</a></div>
+                    <div><a href="#tien_ich">Tien ich</a></div>
+                    <div><a href="#mat_bang">Mat bang</a></div>
+                    <div><a href="#can_ho">Can ho</a></div>
+                    <div><a href="#uu_dai">Uu dai</a></div>
+                </div>
+                <div class="data_details" id="tong_quan">
+                  <h5>1. Tong quan</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                  </p>
+                </div>
+                <div class="data_details" id="vi_tri">
+                  <h5>2. Vi tri</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, eligendi perferendis. Iure consectetur enim iste, nemo exercitationem delectus hic fugiat non molestiae perferendis mollitia explicabo. Accusamus voluptas quos debitis dolorum?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem natus repellendus harum expedita accusantium ad in libero neque quibusdam, saepe blanditiis vitae tenetur nulla! </p>
+                  <img src="./images/bds_chitiet/map.png" alt="map">
+                </div>
+                <div class="data_details" id="tien_ich">
+                  <h5>3. Tien ichn</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                  </p>
+                </div>
+                <div class="data_details" id="mat_bang" style="display: none;">
+                  <h5>4. lorrrrr</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                  </p>
+                </div>
+                <div class="data_details" id="can_ho" style="display: none;">
+                  <h5>5. Fuck U</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                  </p>
+                </div>
+                <div class="data_details" id="uu_dai" style="display: none;">
+                  <h5>6. Hahahahaa </h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum laborum? Rem consectetur id non eligendi
+                    odit sed beatae cupiditate iure accusamus enim distinctio vitae, quidem nisi ducimus hic. Numquam?</p>
+                  <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil.</span> <br>
+                  </p>
+                </div>
+                <img src="./images/bds_chitiet/three_dots.png" alt="three_dots">
+                <div>
+                  SHARE
+                  <img src="./images/bds_chitiet/mess_icon.png" alt="">
+                  <img src="./images/bds_chitiet/fb_icon.png" alt="">
+                  <img src="./images/bds_chitiet/gg_icon.png" alt="">
+                  <img src="./images/bds_chitiet/p_icon.png" alt="">
+                  <img src="./images/bds_chitiet/twitter_icon.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div>
+                <img src="./images/bds_chitiet/map_sidebar.png" alt="map_side">
+              </div>
+              <div class="tabs_side">
+                <h5>Tin Bat dong san lien quan</h5>
+                <div>
+                  <img src="./images/bds_chitiet/side_img1_detail.png" alt="side_img">
+                  <div>
+                    <p><b>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum.</b></p>
+                    <p>
+                      <span>
+                        <img src="./images/bds_chitiet/clock.png" alt="clock">
+                        08/08/2021
+                      </span>
+                      <span>
+                        <img src="./images/bds_chitiet/comment.png" alt="comment">
+                        0
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_img3_details.png" alt="side_img">
+                  <div>
+                    <p><b>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum.</b></p>
+                    <p>
+                      <span>
+                        <img src="./images/bds_chitiet/clock.png" alt="clock">
+                        08/08/2021
+                      </span>
+                      <span>
+                        <img src="./images/bds_chitiet/comment.png" alt="comment">
+                        0
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_img5_details.png" alt="side_img">
+                  <div>
+                    <p><b>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum.</b></p>
+                    <p>
+                      <span>
+                        <img src="./images/bds_chitiet/clock.png" alt="clock">
+                        08/08/2021
+                      </span>
+                      <span>
+                        <img src="./images/bds_chitiet/comment.png" alt="comment">
+                        0
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_img4_details.png" alt="side_img">
+                  <div>
+                    <p><b>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum.</b></p>
+                    <p>
+                      <span>
+                        <img src="./images/bds_chitiet/clock.png" alt="clock">
+                        08/08/2021
+                      </span>
+                      <span>
+                        <img src="./images/bds_chitiet/comment.png" alt="comment">
+                        0
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_img2_details.png" alt="side_img">
+                  <div>
+                    <p><b>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum.</b></p>
+                    <p>
+                      <span>
+                        <img src="./images/bds_chitiet/clock.png" alt="clock">
+                        08/08/2021
+                      </span>
+                      <span>
+                        <img src="./images/bds_chitiet/comment.png" alt="comment">
+                        0
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <span>Xem them ></span>
+                </div>
+              </div>
+              <div class="tabs_side">
+                <form action="" method="post">
+                  <label for="input">
+                    <h5>Binh luan </h5>
+                  </label>
+                  <textarea name="binh_luan" id="input" rows="2" placeholder="binh luan cua ban"></textarea>
+                  <button type="submit">Gui binh luan</button>
+                </form>
+                <div>
+                  <img src="./images/bds_chitiet/side_avt2.png" alt="side_avt">
+                  <div>
+                    <p>
+                      <b>MInh Khoi</b>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facilis quasi ducimus.
+                    </p>
+                    <p>09/08/2021</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_avt3.png" alt="side_avt">
+                  <div>
+                    <p>
+                      <b>MInh Khoi</b>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facilis quasi ducimus. Lorem ipsum, dolor sit
+                      amet consectetur adipisicing elit. Facilis iusto exercitationem non sunt quasi obcaecati. Ipsam impedit sed
+                      molestias laboriosam. <a href="">https://www.facebook.com/soc.kon.5/</a>
+                    </p>
+                    <p>09/08/2021</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/side_avt2.png" alt="side_avt">
+                  <div>
+                    <p>
+                      <b>MInh Khoi</b>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facilis quasi ducimus. Lorem ipsum, dolor sit
+                      amet consectetur adipisicing elit. 
+                    </p>
+                    <p>09/08/2021</p>
+                  </div>
+                </div>
+                <div>
+                  <span>Xem them +</span>
+                </div>
+              </div>
+              <div class="tabs_side">
+                <h4>Bat dong san ky gui</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ullam impedit?</p>
+                <button type="button">
+                  <img src="./images/bds_chitiet/bds_kygui.png" alt="bds_kygui">
+                  Gui ban/cho thue BDS
+                </button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region search_form -->
+    <div class="container search_form">
+      <form action="">
+        <div class="row">
+          <h2>Ban muon tim bat dong san nao</h2>
+          <div>
+            <input type="text" />
+            <select name="place" id="place">
+              <option value="dia diem">dia diem</option>
+              <option value="dia diem 2">dia diem 2</option>
+              <option value="dia diem 3">dia diem 3</option>
+              <option value="dia diem 4">dia diem 4</option>
+              <option value="dia diem 5">dia diem 5</option>
+            </select>
+            <select name="type" id="type">
+              <option value="loai hinh BDS">loai hinh BDS</option>
+              <option value="loai hinh2">loai hinh 2</option>
+              <option value="loai hinh3">loai hinh 3</option>
+              <option value="loai hinh4">loai hinh 4</option>
+              <option value="loai hinh5">loai hinh 5</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-warning">
+            <i class="fa fa-search"></i>
+            Tim kiem
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region content -->
+    <div class="container content">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images//datxanh_1/info1.png" alt="info1" />
+          <h4>Lorem ipsum dolor sit.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            saepe !
+          </p>
+          <p>Gia: <a href="#">Lien he</a></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images//datxanh_1/info2.png" alt="info1" />
+          <h4>Lorem ipsum dolor sit.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            saepe !
+          </p>
+          <p>Gia: <a href="#">Lien he</a></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images//datxanh_1/info3.png" alt="info1" />
+          <h4>Lorem ipsum dolor sit.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            saepe !
+          </p>
+          <p>Gia: <a href="#">Lien he</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region login_container -->
+    <div class="login_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <h2>Dang nhap</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit. is?</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <input type="text" name="email_signup" id="email_signup" />
+            <button type="button" class="btn btn-warning">SIGN UP</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="./images/datxanh_1/qr_ios.png" alt="" />
+            <img src="./images/datxanh_1/qr_android.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region footer_container-->
+    <div class="footer_container">
+      <div class="container">
+        <div class="row">
+          <div>Mot san pham cua</div>
+          <img src="./images/datxanh_1/datxanh_logo.png" alt="" />
+          <div>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion  -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <!-- Custome Script  -->
+  <script src="./css_js/nav_region/javascript.js"></script>
+  <script src="./css_js/login_container/javascript.js"></script>
+  <script src="./css_js/footer_container/javascript.js"></script>
+  <script src="./css_js_batdongsan/search_form/javascript.js"></script>
+  <script src="./css_js_batdongsan/content/javascript.js"></script>
+  <script src="./css_js_bds_chitiet/path_line/javascript.js"></script>
+  <script src="./css_js_bds_chitiet/description/javascript.js"></script>
+<script src="./css_js_bds_chitiet/details/javascript.js"></script>
+</html>

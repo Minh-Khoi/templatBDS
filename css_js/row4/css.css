@@ -1,0 +1,68 @@
+.row4_ {
+  max-width: 70vw;
+  background-color: #ffffff;
+  margin-top: 1.5em;
+  padding: 1.5em 2.5em;
+  background-image: url(../../images/datxanh_1/row4_background.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 33.33%;
+}
+
+.row4_ .row .subrow1 p {
+  margin-left: auto;
+  color: #f58220;
+  margin-top: 0.1em;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.row4_ .row .subrow2 > div {
+  padding-left: 0;
+}
+
+.row4_ .row .subrow2 > div > img {
+  max-width: 100%;
+  margin-bottom: 0.5em;
+}
+.row4_ .row .subrow2 > div > p {
+  margin: 0.5em 0;
+}
+.row4_ .row .subrow2 > div > p:first-of-type {
+  color: #babec9;
+}
+
+.row4_ > .row > div:last-child > div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.row4_ > .row > div:last-child > div > p {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.row4_ > .row > div:last-child > div > p > * {
+  color: white;
+  margin: 0 0.2em;
+}
+
+.row4_ > .row > div:last-child > div > p > img {
+  margin-left: 0.7em;
+}
+
+.row4_ > .row > div:last-child > div > p:first-of-type {
+  background-color: #f9ac19;
+  flex-basis: 40%;
+}
+.row4_ > .row > div:last-child > div > p:last-of-type {
+  background-color: #f58220;
+  flex-basis: 60%;
+}
+
+.row4_ .row > div:last-child > img {
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,17 @@
+.lower_banner {
+  /* margin-top: 2.5em; */
+  max-width: 70vw;
+}
+
+.lower_banner .row {
+  justify-content: center;
+}
+
+.lower_banner .row > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.lower_banner .row > div > img {
+  width: 100%;
+}

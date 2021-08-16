@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="./css_js_login/left_div/css.css">
+<link rel="stylesheet" href="./css_js_login/left_div/css.css">
+<link rel="stylesheet" href="./css_js_login/right_div/css.css">
+<title></title>
+<style>
+    body{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+</style>
+</head>
+<body>
+    <div class="left_div">
+        <img src="./images/login/logo_login.png" alt="" >
+    </div>
+
+    <div class="right_form" id="">
+        <h1>Dang nhap</h1>
+        <div class="form_default" style="display: none;">
+            <form action="#" method="post">
+                <div>
+                    <label for="username">
+                        <img src="./images/login/login_user_icon.png" alt="">
+                    </label>
+                    <input placeholder="email or phone" type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="password">
+                        <img src="./images/login/pass_icon.png" alt="" >
+                    </label>
+                    <input type="password" name="password" id="password" placeholder="password">
+                </div>
+                <input class="btn btn-warning text-white" value="Dang nhap" type="submit" name="submit" id="submit">
+            </form>
+            <a href="?login_with=phone">Dang nhap bang so dien thoai >>></a>
+        </div>
+        <div class="form_sdt_1" style="display: none;">
+            <form action="" method="get" >
+                <div>
+                    <label for="username">
+                        <img src="./images/login/phone_icon.png" alt="">
+                    </label>
+                    <input placeholder="phone number" type="number" name="phone" id="phone">
+                    <input type="hidden" name="login_with" value="token" id="login_with">
+                </div>
+                <input class="btn btn-warning text-white" value="Dang nhap" type="submit" name="submit" id="submit">
+            </form>
+            <a href="?login_with="><<< Dang nhap bang mat khau</a>
+        </div>
+        <div class="form_sdt_token" style="display: none;">
+            <p>Ma xac minh duoc gui qua tin nhan SMS den so dien thoai <span></span>. Vui long nhap vao ben duoi</p>
+            <form action="#" method="post" >
+                <div>
+                    <input maxlength="1" type="text" name="token_1" id="token_1">
+                    <input maxlength="1" type="text" name="token_2" id="token_2">
+                    <input maxlength="1" type="text" name="token_3" id="token_3">
+                    <input maxlength="1" type="text" name="token_4" id="token_4">
+                    <input maxlength="1" type="text" name="token_5" id="token_5">
+                    <input maxlength="1" type="text" name="token_6" id="token_6">
+                </div>
+                <p>Ma xac minh co hieu luc trong vong <span>112 giay</span> nua</p>
+                <input class="btn btn-warning text-white" value="Dang nhap" type="submit" name="submit" id="submit">
+            </form>
+            <a href="?login_with="> <<< Dang nhap bang mat khau</a>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="./css_js_login/left_div/javascript.js"></script>
+<script src="./css_js_login/right_div/javascript.js"></script>
+
+</html>

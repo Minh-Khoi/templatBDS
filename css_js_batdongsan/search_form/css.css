@@ -1,0 +1,32 @@
+.search_form {
+  border: none;
+  max-width: 70vw;
+}
+.search_form .row {
+  margin-left: 0;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.search_form .row h2 {
+  margin-top: 4rem;
+}
+
+.search_form .row > div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.search_form .row > div > * {
+  margin: 2.875em 0.25em 1em 0.25em;
+  height: 3.375em;
+  border-radius: 0.5em;
+}
+
+.search_form .row > div > input {
+  flex-grow: 2;
+  margin-left: 0;
+}
+.search_form .row > div > select {
+  flex-grow: 1;
+}

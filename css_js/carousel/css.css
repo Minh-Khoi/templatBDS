@@ -1,0 +1,27 @@
+.carousel_banner {
+  max-width: 70vw;
+}
+.carousel_banner #carouselBanner .carousel-item,
+.carousel_banner #carouselBanner .carousel-item img {
+  width: 70vw;
+}
+
+.carousel_banner .carousel-control-next .carousel-control-next-icon,
+.carousel_banner .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #fff;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  background-size: 50%;
+  background-position: 1.2em 0.2em;
+  background-image: url(../../images/datxanh_1/arrow-right-carousel-next.png);
+  border: 0.2px solid black;
+  opacity: 1.5;
+  margin-right: -7.5vw;
+}
+.carousel_banner .carousel-control-prev .carousel-control-prev-icon {
+  background-position: 0.85em 0.2em;
+  background-image: url(../../images/datxanh_1/arrow-right-carousel-prev.png);
+  margin-right: 0;
+  margin-left: -8.5vw;
+}

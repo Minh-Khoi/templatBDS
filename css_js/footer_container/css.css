@@ -1,0 +1,41 @@
+.footer_container {
+  background-color: #fff;
+}
+
+.footer_container .container {
+  border: none;
+  max-width: 70vw;
+  padding-left: 0;
+}
+
+.footer_container .container > .row {
+  align-items: center;
+  padding: 2.5em 0 1em 1em;
+}
+.footer_container .container > .row > * {
+  margin-right: 1em;
+}
+
+.footer_container .container > .row > img {
+  margin-top: -1.3em;
+}
+.footer_container .container > .row > div:not(:first-child) {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-left: auto;
+  font-weight: 600;
+  margin-top: -0.54em;
+}
+
+/* .footer_container .container > .row > div:not(:first-child) > div {
+  margin: 0 2em;
+} */
+
+.footer_container .container > .row > div:not(:first-child) span {
+  background-color: #f9ac19;
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 0.375em;
+  margin: 0 1em;
+}

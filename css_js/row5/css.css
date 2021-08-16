@@ -1,0 +1,37 @@
+.row5_ {
+  max-width: 70vw;
+  background-color: #fff;
+  margin-top: 1.5em;
+  padding: 1.5em 2.5em;
+}
+
+.row5_ .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2em;
+}
+
+.row5_ > .row:first-child {
+  margin: 1em 0;
+}
+
+.row5_ > .row:last-child {
+  align-items: center;
+}
+
+.row5_ > .row:last-child > div {
+  padding: 3em 3em 1.5em 3em;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.row5_ > .row:last-child > div > * {
+  text-align: center;
+  margin: 0.5em 0;
+  max-width: 150%;
+}
+
+.row5_ > .row:last-child .div_absolute {
+  position: absolute;
+}

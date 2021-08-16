@@ -1,0 +1,47 @@
+.description {
+  max-width: 70vw;
+  margin-top: 4.6em;
+}
+
+.description .row:first-child > div:first-child > p > span:first-child {
+  background-color: #f2f2f2;
+  border-radius: 0 0.85em 0.85em 0;
+  line-height: 2.5em;
+  display: inline-block;
+  padding: 0 1.05em;
+}
+.description .row:first-child > div:first-child > p > span:first-child > b {
+  color: #659909;
+}
+
+.description .row:first-child > div:first-child > p > span:last-child > a {
+  color: #f6a515;
+  font-weight: 500;
+}
+
+.description .row:first-child > div:last-child {
+  margin-left: auto;
+  padding-top: 3.2em;
+  font-size: 1.2em;
+}
+
+.description .row:first-child > div:last-child img {
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+}
+
+.description .row:nth-child(2) > img {
+  width: 100%;
+}
+
+.description .row:nth-child(3) {
+  background-color: #f9eacd;
+  flex-direction: column;
+  margin-top: 1em;
+  padding-left: 15px;
+}
+.description .row:nth-child(3) > div {
+  padding-left: 2%;
+  padding-right: 2%;
+}

@@ -1,0 +1,29 @@
+.content {
+  max-width: 70vw;
+}
+
+.content .row > div {
+  background-color: #ffffff;
+  margin: 1.5em 0;
+  text-align: center;
+  padding: 0;
+}
+/* .content .row > div:not(:first-child) {
+  margin-left: auto;
+} */
+
+.content .row > div h4 {
+  margin: 1em 0 0.76em 0;
+}
+
+.content .row > div img {
+  width: 100%;
+}
+.content .row > div p:last-child {
+  margin-bottom: 1.25em;
+}
+
+.content .row > div p a {
+  font-weight: 500;
+  color: #f4821f;
+}

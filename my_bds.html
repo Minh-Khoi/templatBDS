@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custome css -->
+    <link rel="stylesheet" href="./css_js/nav_region/css.css" />
+    <link rel="stylesheet" href="./css_js/login_container/css.css" />
+    <link rel="stylesheet" href="./css_js/footer_container/css.css" />
+    <link rel="stylesheet" href="./css_js_bds_chitiet/path_line/css.css" />
+    <link rel="stylesheet" href="./css_js_my_bds/main_body/css.css" />
+    <title></title>
+    <style>
+      body {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #region nav_region -->
+    <nav class="nav_region navbar navbar-expand-md navbar-light bg-warning">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> Trang chủ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tin BĐS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BĐS trên thị trường</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ưu đãi </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gửi bán/thuê </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tra cứu </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            data-forid="template_search"
+          >
+            <i class="fa fa-search"></i>
+          </button>
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            data-forid="template_notification"
+          >
+            <i class="fa fa-bell"></i>
+          </button>
+          <img
+            src="./images\datxanh_1/anh_avatar.jpg"
+            alt="anh_avartar"
+            data-forid="template_avatar"
+          />
+        </div>
+      </div>
+      <!-- #region template_avatar -->
+      <script type="text/template" id="template_avatar">
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/fucku2.png" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-fffff 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/fucku.png" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-rrrrrr 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right align-self-center " style="">></div>
+        </div>
+        <hr>
+      </script>
+      <!-- #endregion  -->
+      <!-- #region template_notification -->
+      <script type="text/template" id="template_notification">
+        <div class="media">
+            <div class="media-left align-self-center">
+                <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body  align-self-center ">
+                <h4 class="media-heading">Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <hr>
+      </script>
+      <!-- #endregion  -->
+      <!-- #region template_search -->
+      <script type="text/template" id="template_search">
+        <form action="">
+            <input type="text" name="search_field" id="search_field">
+            <button type="button">SEARCH</button>
+        </form>
+      </script>
+      <!-- #endregion  -->
+    </nav>
+    <!-- #endregion  -->
+
+    <!-- #region path_line -->
+    <div class="container path_line">
+      <a href="">Trang chu</a>
+      /
+      <a href="">Ca nhan</a>
+      /
+      <a href="">BDS cua toi</a>
+      /
+      <a href="">Thong tin hop dong</a>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region main_body  -->
+    <div class="container main_body">
+        <div class="row">
+            <div class="col-12 col-lg-8 left">
+                <h2>Thong tin hop dong</h2>
+                <div class="main_tabs">
+                    <h5>TONG QUAN</h5>
+                    <div class="row">
+                        <span class="absolute_span"></span>
+                        <div class="col-12 col-lg-8">
+                            <p><b>Ma hop dong:</b> Lorem, ipsum.</p>
+                            <p><b>BDS:</b> Lorem.</p>
+                            <p><b>Gia tri hop dong:</b> Lorem, ipsum.</p>
+                            <p><b>Yeu cau thanh toan:</b> Lorem, ipsum dolor.</p>
+                            <p><b>Da thanh toan:</b> Lorem.</p>
+                            <p><b>Tinh trang hop dong:</b><span>Lorem, ipsum dolor.</span></p>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <p>Lorem ipsum dolor sit, amet t. Voluptas id  laborum ipsa.</p>
+                            <span class="btn btn-warning">
+                                Xac nhan hop dong
+                                <img src="./images/bds_chitiet/arrow-right.png" alt="arrow-right" >
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_tabs">
+                  <h5>Tai lieu</h5>
+                  <div class="row">
+                    <span class="absolute_span"></span>
+                    <div class="">
+                      <div class="active">Tat ca</div>
+                      <div>Hop dong dat coc</div>
+                      <div>Hop dong mau</div>
+                      <div>Anh can ho</div>
+                      <div>Hop dong mua ban</div>
+                      <div>Tien do thanh toan</div>
+                    </div>
+                    <div class="">
+                      <img src="./images/bds_chitiet/tailieu1.png" alt="tailieu">
+                      <img src="./images/bds_chitiet/tailieu2.png" alt="tailieu">
+                      <img src="./images/bds_chitiet/tailieu4.png" alt="tailieu">
+                      <img src="./images/bds_chitiet/tailieu5.jpg" alt="tailieu">
+                      <img src="./images/bds_chitiet/tailieu3.png" alt="tailieu">
+                      <span class="hover_img" style="display:none"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="main_tabs">
+                  <h5>Thanh toan</h5>
+                  <div class="row">
+                    <span class="absolute_span"></span>
+                    <h5>Cac dot thanh toan</h5>
+                    <div class="">
+                      <img src="./images/bds_chitiet/bill.png" alt="bill">
+                      <span>
+                        <h6>Ma OTP12345678951</h6>
+                        <span>16:11</span>
+                        <span>15/08/2021</span>
+                        <br>
+                        <span>
+                          So tien thanh toan <span>20.000.000 dong</span>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="">
+                      <img src="./images/bds_chitiet/bill.png" alt="bill">
+                      <span>
+                        <h6>Ma OTP12345678951</h6>
+                        <span>16:11</span>
+                        <span>15/08/2021</span>
+                        <br>
+                        <span>
+                          So tien thanh toan <span>20.000.000 dong</span>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="btn btn-warning">
+                      <span>+</span> <span>Thanh toan</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="main_tabs">
+                  <h5>Thong tin khach hang</h5>
+                  <div class="row">
+                    <span class="absolute_span"></span>
+                    <p><b>Khach hang:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>Dien thoai:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>EMail:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>Ngay sinh:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>Gioi tinh:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>So CMND:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>Noi cap:</b> Lorem ipsum dolor sit amet.</p>
+                    <p><b>Dia chi thuong tru:</b> Lorem ipsum dolor sit amet.></p>
+                    <p><b>Dia chi lien he:</b> Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, 
+                      <button class="btn btn-light">consequatur?</button>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 right">
+              <div class="side-tab">
+                <div>
+                  <div>
+                    <span><img src="./images/bds_chitiet/giachut_icon.png" alt="giachut" /></span>
+                  </div>
+                  <h2>Thông báo từ chủ đầu tư</h2>
+                </div>
+                <div>
+                  <h6>Moi nhat</h6>
+                  <ul class="list-unstyled">
+                    <li class="media">
+                      <span class="d-flex">
+                        <span></span>
+                      </span>
+                      <div class="media-body">
+                        <img src="./images/datxanh_1/clock.png" alt="clock" srcset="" />
+                        20 giờ trước <br />
+                        <b>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                          consectetur adipisicing elit. Reiciendis, id.</b>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <span class="d-flex">
+                        <span></span>
+                      </span>
+                      <div class="media-body">
+                        <img src="./images/datxanh_1/clock.png" alt="clock" srcset="" />
+                        20 giờ trước <br />
+                        <b>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                          consectetur adipisicing elit. Reiciendis, id.</b>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <span class="d-flex">
+                        <span></span>
+                      </span>
+                      <div class="media-body">
+                        <img src="./images/datxanh_1/clock.png" alt="clock" srcset="" />
+                        20 giờ trước <br />
+                        <b>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                          consectetur adipisicing elit. Reiciendis, id.</b>
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- NOTE: This div below should be created by JS script -->
+                  <!-- <div class="vertical_line"></div> -->
+                  <!-- end NOTE -->
+                </div>
+              </div>
+              <div class="side-tab">
+                <h5>LIEN HE</h5>
+                <div>
+                  <img src="./images/bds_chitiet/lienhe_avt1.png" alt="lienhe_avt">
+                  <div class="info">
+                    <p><b>Nguyen Ngoc Minh Khoi</b></p>
+                    <p>0362889147</p>
+                  </div>
+                  <div class="contact">
+                    <img src="./images/bds_chitiet/sticker.png" alt="sticker">
+                    <img src="./images/bds_chitiet/telephone.png" alt="telephone">
+                  </div>
+                </div>
+                <div>
+                  <img src="./images/bds_chitiet/lienhe_avt2.png" alt="lienhe_avt">
+                  <div class="info">
+                    <p><b>Kang Je Hoon</b></p>
+                    <p>1900 1550</p>
+                  </div>
+                  <div class="contact">
+                    <img src="./images/bds_chitiet/sticker.png" alt="sticker">
+                    <img src="./images/bds_chitiet/telephone.png" alt="telephone">
+                  </div>
+                </div>
+                <div class="danhgia_tuvanvien">
+                  <h5>Danh gia tu van vien</h5>
+                  <div>
+                    <div class="stars">
+                      <img src="./images/bds_chitiet/non-color-start.png" alt="star">
+                      <img src="./images/bds_chitiet/non-color-start.png" alt="star">
+                      <img src="./images/bds_chitiet/non-color-start.png" alt="star">
+                      <img src="./images/bds_chitiet/non-color-start.png" alt="star">
+                      <img src="./images/bds_chitiet/non-color-start.png" alt="star">
+                    </div>
+                    <span class="btn btn-light">Danh gia</span>
+                  </div>
+                </div>
+              </div>
+              <div class="side-tab">
+                <div>i</div>
+                <span>Xem thong tin BDS</span>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion  -->
+    
+    <!-- #region login_container -->
+    <div class="login_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <h2>Dang nhap</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit. is?</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <input type="text" name="email_signup" id="email_signup" />
+            <button type="button" class="btn btn-warning">SIGN UP</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="./images/datxanh_1/qr_ios.png" alt="" />
+            <img src="./images/datxanh_1/qr_android.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region footer_container-->
+    <div class="footer_container">
+      <div class="container">
+        <div class="row">
+          <div>Mot san pham cua</div>
+          <img src="./images/datxanh_1/datxanh_logo.png" alt="" />
+          <div>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+            <div>Lorem.</div>
+            <span class="circle_span"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion  -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <!-- Custome Script  -->
+  <script src="./css_js/nav_region/javascript.js"></script>
+  <script src="./css_js/login_container/javascript.js"></script>
+  <script src="./css_js/footer_container/javascript.js"></script>
+  <script src="./css_js_bds_chitiet/path_line/javascript.js"></script>
+<script src="./css_js_my_bds/main_body/javascript.js"></script>
+</html>

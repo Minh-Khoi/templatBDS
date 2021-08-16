@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custome css -->
+    <link rel="stylesheet" href="./css_js/nav_region/css.css">
+    <link rel="stylesheet" href="./css_js/login_container/css.css">
+    <link rel="stylesheet" href="./css_js/footer_container/css.css">
+    <link rel="stylesheet" href="./css_js_batdongsan/search_form/css.css">
+    <link rel="stylesheet" href="./css_js_batdongsan/content/css.css">
+    <title></title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- #region nav_region -->
+    <nav class="nav_region navbar navbar-expand-md navbar-light bg-warning">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> Trang chủ </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tin BĐS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BĐS trên thị trường</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ưu đãi </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gửi bán/thuê </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tra cứu </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="button" data-forid="template_search"> <i
+                        class="fa fa-search"></i></button>
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="button" data-forid="template_notification"> <i
+                        class="fa fa-bell"></i></button>
+                <img src="./images\datxanh_1/anh_avatar.jpg" alt="anh_avartar" data-forid="template_avatar">
+            </div>
+        </div>
+        <!-- #region template_avatar -->
+        <script type="text/template" id="template_avatar">
+                <div class="media">
+                    <div class="media-left align-self-center">
+                        <img src="./images\datxanh_1/fucku2.png" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body  align-self-center ">
+                        <h4 class="media-heading">Left-aligned</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="media-right align-self-center " style="">></div>
+                </div>
+                <hr>
+                <div class="media">
+                    <div class="media-left align-self-center">
+                        <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body  align-self-center ">
+                        <h4 class="media-heading">Left-fffff 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="media-right align-self-center " style="">></div>
+                </div>
+                <hr>
+                <div class="media">
+                    <div class="media-left align-self-center">
+                        <img src="./images\datxanh_1/fucku.png" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body  align-self-center ">
+                        <h4 class="media-heading">Left-rrrrrr 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="media-right align-self-center " style="">></div>
+                </div>
+                <hr>
+            </script>
+        <!-- #endregion  -->
+        <!-- #region template_notification -->
+        <script type="text/template" id="template_notification">
+                <div class="media">
+                    <div class="media-left align-self-center">
+                        <img src="./images\datxanh_1/anh_avatar.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body  align-self-center ">
+                        <h4 class="media-heading">Left-aligned</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <hr>
+            </script>
+        <!-- #endregion  -->
+        <!-- #region template_search -->
+        <script type="text/template" id="template_search">
+                <form action="">
+                    <input type="text" name="search_field" id="search_field">
+                    <button type="button">SEARCH</button>
+                </form>
+            </script>
+        <!-- #endregion  -->
+
+    </nav>
+    <!-- #endregion  -->
+
+    <!-- #region search_form -->
+    <div class="container search_form">
+        <form action="">
+            <div class="row">
+                <h2>Ban muon tim bat dong san nao</h2>
+                <div>
+                    <input type="text" >
+                    <select name="place" id="place">
+                        <option value="dia diem">dia diem</option>
+                        <option value="dia diem 2">dia diem 2</option>
+                        <option value="dia diem 3">dia diem 3</option>
+                        <option value="dia diem 4">dia diem 4</option>
+                        <option value="dia diem 5">dia diem 5</option>
+                    </select>
+                    <select name="type" id="type">
+                        <option value="loai hinh BDS">loai hinh BDS</option>
+                        <option value="loai hinh2">loai hinh 2</option>
+                        <option value="loai hinh3">loai hinh 3</option>
+                        <option value="loai hinh4">loai hinh 4</option>
+                        <option value="loai hinh5">loai hinh 5</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-warning">
+                    <i class="fa fa-search"></i>
+                    Tim kiem
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region content -->
+    <div class="container content">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info1.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info2.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info3.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info1.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info2.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info3.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info1.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info2.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info3.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info1.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info2.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <img src="./images//datxanh_1/info3.png" alt="info1">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe !</p>
+                <p>Gia: <a href="#">Lien he</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region login_container -->
+    <div class=" login_container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2>Dang nhap</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit. is?</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <input type="text" name="email_signup" id="email_signup">
+                    <button type="button" class="btn btn-warning">SIGN UP</button>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/datxanh_1/qr_ios.png" alt="">
+                    <img src="./images/datxanh_1/qr_android.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion  -->
+
+    <!-- #region footer_container-->
+    <div class="footer_container">
+        <div class="container">
+            <div class="row">
+                <div>Mot san pham cua</div>
+                <img src="./images/datxanh_1/datxanh_logo.png" alt="">
+                <div>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                    <div>Lorem.</div>
+                    <span class="circle_span"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion  -->
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<!-- Custome Script  -->
+<script src="./css_js/nav_region/javascript.js"></script>
+<script src="./css_js/login_container/javascript.js"></script>
+<script src="./css_js/footer_container/javascript.js"></script>
+<script src="./css_js_batdongsan/search_form/javascript.js"></script>
+<script src="./css_js_batdongsan/content/javascript.js"></script>
+
+</html>
